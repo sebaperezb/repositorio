@@ -1,0 +1,199 @@
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~/OneDrive/Escritorio/CODERHOUSE 2023/Desarrollo Web/HTML/2daentrega
+$ git init proyecto-web
+Initialized empty Git repository in C:/Users/Sebastian Perez/OneDrive/Escritorio/CODERHOUSE 2023/Desarrollo Web/HTML/2daentrega/proyecto-web/.git/
+
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~/OneDrive/Escritorio/CODERHOUSE 2023/Desarrollo Web/HTML/2daentrega
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~/OneDrive/Escritorio/CODERHOUSE 2023/Desarrollo Web/HTML/2daentrega
+$ cd proyecto-web
+
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~/OneDrive/Escritorio/CODERHOUSE 2023/Desarrollo Web/HTML/2daentrega/proyecto-web (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        css/
+        images/
+        index.html
+        pages/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~/OneDrive/Escritorio/CODERHOUSE 2023/Desarrollo Web/HTML/2daentrega/proyecto-web (master)  
+$ git add .
+
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~/OneDrive/Escritorio/CODERHOUSE 2023/Desarrollo Web/HTML/2daentrega/proyecto-web (master)  
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   css/styles.css
+        new file:   images/Google_Maps_logo_icon.png
+        new file:   images/alquilerPedulas.jpg
+        new file:   images/climber.png
+        new file:   images/desplome.jpg
+        new file:   images/desplome2.jpg
+        new file:   images/detalleManos.jpg
+        new file:   images/fondoAmarillo.jpeg
+        new file:   images/fondoHome.png
+        new file:   images/fotoOctopusLogo.jpg
+        new file:   images/funcional.jpg
+        new file:   images/logoFacebook.png
+        new file:   images/logoInstragram.png
+        new file:   images/logoNegro.jpg
+        new file:   images/logoOctopus.png
+        new file:   images/logoOctopusSinFondo.png
+        new file:   images/logoblanco.png
+        new file:   images/logonegropng.png
+        new file:   images/mendotranza.png
+        new file:   images/multipresa.jpg
+        new file:   images/multipresas3.jpg
+        new file:   images/multipresas4.jpg
+        new file:   images/multripresa2.jpg
+        new file:   images/muroTrx.jpg
+        new file:   "images/ni\303\261os.jpeg"
+        new file:   images/systemViejo.jpg
+        new file:   index.html
+        new file:   pages/clases.html
+        new file:   pages/contacto.html
+        new file:   pages/muro.html
+        new file:   pages/registro.html
+        new file:   pages/tarifa.html
+
+
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~/OneDrive/Escritorio/CODERHOUSE 2023/Desarrollo Web/HTML/2daentrega/proyecto-web (master)  
+$ git commit -m "primer commit"
+[master (root-commit) a50ee45] primer commit
+ 32 files changed, 747 insertions(+)
+ create mode 100644 css/styles.css
+ create mode 100644 images/Google_Maps_logo_icon.png
+ create mode 100644 images/alquilerPedulas.jpg
+ create mode 100644 images/climber.png
+ create mode 100644 images/desplome.jpg
+ create mode 100644 images/desplome2.jpg
+ create mode 100644 images/detalleManos.jpg
+ create mode 100644 images/fondoAmarillo.jpeg
+ create mode 100644 images/fondoHome.png
+ create mode 100644 images/fotoOctopusLogo.jpg
+ create mode 100644 images/funcional.jpg
+ create mode 100644 images/logoFacebook.png
+ create mode 100644 images/logoInstragram.png
+ create mode 100644 images/logoNegro.jpg
+ create mode 100644 images/logoOctopus.png
+ create mode 100644 images/logoOctopusSinFondo.png
+ create mode 100644 images/logoblanco.png
+ create mode 100644 images/logonegropng.png
+ create mode 100644 images/mendotranza.png
+ create mode 100644 images/multipresa.jpg
+ create mode 100644 images/multipresas3.jpg
+ create mode 100644 images/multipresas4.jpg
+ create mode 100644 images/multripresa2.jpg
+ create mode 100644 images/muroTrx.jpg
+ create mode 100644 "images/ni\303\261os.jpeg"
+ create mode 100644 images/systemViejo.jpg
+ create mode 100644 index.html
+ create mode 100644 pages/clases.html
+ create mode 100644 pages/contacto.html
+ create mode 100644 pages/muro.html
+ create mode 100644 pages/registro.html
+ create mode 100644 pages/tarifa.html
+
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~/OneDrive/Escritorio/CODERHOUSE 2023/Desarrollo Web/HTML/2daentrega/proyecto-web (master)  
+$ git log --oneline
+a50ee45 (HEAD -> master) primer commit
+
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~/OneDrive/Escritorio/CODERHOUSE 2023/Desarrollo Web/HTML/2daentrega/proyecto-web (master)  
+$ git remote add origin https://github.com/sebaperezb/repositorio.git
+
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~/OneDrive/Escritorio/CODERHOUSE 2023/Desarrollo Web/HTML/2daentrega/proyecto-web (master)  
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/sebaperezb/repositorio.git'
+
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~/OneDrive/Escritorio/CODERHOUSE 2023/Desarrollo Web/HTML/2daentrega/proyecto-web (master)  
+$ git stauts
+git: 'stauts' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~/OneDrive/Escritorio/CODERHOUSE 2023/Desarrollo Web/HTML/2daentrega/proyecto-web (master)  
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~/OneDrive/Escritorio/CODERHOUSE 2023/Desarrollo Web/HTML/2daentrega/proyecto-web (master)  
+$ git branch -b 
+error: unknown switch `b'
+usage: git branch [<options>] [-r | -a] [--merged] [--no-merged]
+   or: git branch [<options>] [-l] [-f] <branch-name> [<start-point>]
+   or: git branch [<options>] [-r] (-d | -D) <branch-name>...
+   or: git branch [<options>] (-m | -M) [<old-branch>] <new-branch>
+   or: git branch [<options>] (-c | -C) [<old-branch>] <new-branch>
+   or: git branch [<options>] [-r | -a] [--points-at]
+   or: git branch [<options>] [-r | -a] [--format]
+
+Generic options
+    -v, --verbose         show hash and subject, give twice for upstream branch
+    -q, --quiet           suppress informational messages
+    -t, --track[=(direct|inherit)]
+                          set branch tracking configuration
+    -u, --set-upstream-to <upstream>
+                          change the upstream info
+    --unset-upstream      unset the upstream info
+    --color[=<when>]      use colored output
+    -r, --remotes         act on remote-tracking branches
+    --contains <commit>   print only branches that contain the commit
+    --no-contains <commit>
+                          print only branches that don't contain the commit
+    --abbrev[=<n>]        use <n> digits to display object names
+
+Specific git-branch actions:
+    -a, --all             list both remote-tracking and local branches
+    -d, --delete          delete fully merged branch
+    -D                    delete branch (even if not merged)
+    -m, --move            move/rename a branch and its reflog
+    -M                    move/rename a branch, even if target exists
+    -c, --copy            copy a branch and its reflog
+    -C                    copy a branch, even if target exists
+    -l, --list            list branch names
+    --show-current        show current branch name
+    --create-reflog       create the branch's reflog
+    --edit-description    edit the description for the branch
+    -f, --force           force creation, move/rename, deletion
+    --merged <commit>     print only branches that are merged
+    --no-merged <commit>  print only branches that are not merged
+    --column[=<style>]    list branches in columns
+    --sort <key>          field name to sort on
+    --points-at <object>  print only branches of the object
+    -i, --ignore-case     sorting and filtering are case insensitive
+    --format <format>     format to use for the output
+
+
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~/OneDrive/Escritorio/CODERHOUSE 2023/Desarrollo Web/HTML/2daentrega/proyecto-web (master)  
+$ git checkout -b master
+fatal: a branch named 'master' already exists
+
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~/OneDrive/Escritorio/CODERHOUSE 2023/Desarrollo Web/HTML/2daentrega/proyecto-web (master)  
+$ git push origin master
+info: please complete authentication in your browser...
+Enumerating objects: 34, done.
+Counting objects: 100% (34/34), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (32/32), done.
+Writing objects: 100% (34/34), 61.35 MiB | 1.99 MiB/s, done.
+Total 34 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/sebaperezb/repositorio.git
+ * [new branch]      master -> master
+
+Sebastian Perez@DESKTOP-ROB2DKA MINGW64 ~/OneDrive/Escritorio/CODERHOUSE 2023/Desarrollo Web/HTML/2daentrega/proyecto-web (master)  
+$
